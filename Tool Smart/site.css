@@ -24,4 +24,50 @@ h1 {
     font-size: 30px;
 }
 
+/* style nav bar */
+ul#menu {
+    padding: 0;
+    margin-bottom: 11px;
+}
 
+ul#menu li {
+    display: inline;
+    margin-right: 3px;
+}
+
+ul#menu li a {
+    background-color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #696969;
+    border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+    color: #ffffff;
+    background-color: #111111;
+}
+
+/* set table width */
+table {
+    width: 100%;
+}
+
+/* style table */
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+th {
+    text-align: left;
+}
+
+table tr:nth-last-child(odd) {
+    background-color: #f1f1f1;
+}
+
+table tr:nth-last-child(even) {
+    background-color: #ffffff;
+}
