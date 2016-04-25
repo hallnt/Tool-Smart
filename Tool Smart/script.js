@@ -1,4 +1,7 @@
-﻿// add navigation bar to HTML pages
+﻿// add page header
+document.getElementById("head01").innerHTML = "Tool Smart";
+
+// add navigation bar to HTML pages
 document.getElementById("nav01").innerHTML =
     "<ul id='menu'>" +
     "<li><a href='index.html'>Home</a></li>" +
