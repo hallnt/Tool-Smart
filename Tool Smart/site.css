@@ -2,61 +2,56 @@
 body {
     font-family: "Trebuchet MS", Verdana, sans-serif;
     font-size: 16px;
-    background-color: #000000;
-    color: #696969;
+    background-color: #696969;
+    color: #000000;
     padding: 3px;
 }
 
 /* style page header */
 #head01 {
+    height: 300px;
     text-align: center;
-    font-family: serif;
-    font-size: 80px;
-    border: 3px solid #cc9900;
-    background-color: #000000;
-    color: #ffffff;
-    padding: 30px 0;
+    font-size: 150px;
+    background: linear-gradient(#0e166d, #0858e9, #11a2f6, #19f8a0);
+    color: #f3c40e;
+    padding: 65px 0; 
+    margin: 0;   
+}
+
+/* style hr element */
+hr {
+    border-style: inset;
+    border: 1px solid #e0dede;
 }
 
 /* style HTML element with id= main */
 #main {
-    padding: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: #ffffff;
+    margin: 0;
+    padding: 15px 15px 5px 30px;
+    background: linear-gradient(#ffffff, #f1f1f1);
     border-radius: 0 0 5px 5px;
-}
-
-/* style HTML h1 heading element */
-h1 {
-    font-family: Georgia, serif;
-    color: #996600;
-    font-size: 30px;
 }
 
 /* style nav bar */
 ul#menu {
-    padding: 10px 20px;
-    margin-bottom: 11px; 
-    background-color: #000000;   
+    margin: 10px 0;     
 }
 
 ul#menu li {
     display: inline;
-    margin-right: 3px;
+    margin-right: 3px;    
 }
 
-ul#menu li a {
-    background-color: #ffffff;
+ul#menu li a {    
     padding: 10px 20px;
     text-decoration: none;
-    color: #696969;
+    color: #ffffff;
     border-radius: 4px 4px 0 0;
 }
 
 ul#menu li a:hover {
-    color: #ffffff;
-    background-color: #111111;
+    color: #000000;
+    background-color: #ffffff;
 }
 
 /* set table width */
@@ -81,4 +76,9 @@ table tr:nth-last-child(odd) {
 
 table tr:nth-last-child(even) {
     background-color: #ffffff;
+}
+
+#foot01 {
+    text-align: center;
+    color: #333333;
 }
